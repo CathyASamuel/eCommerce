@@ -1,0 +1,20 @@
+.cart{
+    display: inline-block;
+    grid-template-columns: repeat(9, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    width: 30%;
+}
+
+.hideTotal{
+    display:none;
+}
+
+.showTotal{
+    text-decoration: double underline;
+}
+
+.showSubTotal{
+    text-decoration: underline;
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

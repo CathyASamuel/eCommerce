@@ -1,0 +1,62 @@
+.navbar {
+    color: whitesmoke;
+    background-color: darksalmon;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    margin: 10px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cart {
+    font-size: 30px;
+    border-radius: 6px;
+    display: inline-block;
+    width: 60%;
+    position: relative;
+    transform: translatex(50%);
+}
+
+.navtext {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.cartcounter {
+    font-size: 30px;
+    color: rgb(16, 143, 33);
+    padding: 0 5px;
+    top: 0px;
+    display: inline-block;
+    position: relative;
+    transform: translateY(-60%)
+}
+
+.seeCartButton{
+    text-transform:capitalize;
+    font-size: 1.4rem;
+    background:transparent;
+    border: 0.05rem solid lightBlue;
+    border-color: Yellow;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    cursor:pointer;
+    margin:0.2rem 0.5rem 0.2rem 0;
+    transition:all 0.5s ease-in-out;
+}
+
+.seeCartButton:hover{
+        background: Yellow;
+        color:mainBlue;
+}
+    
+.seeCartButton:focus{
+        outline:none;
+    }
